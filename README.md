@@ -14,7 +14,7 @@ _______
 ### Usage
 _______
 Page hébergé via <a href="https://pages.github.com" target="blank">GitHub Pages</a><br>
-Lien d'accées : <a href="https://f-olivier.github.io/Ellye/" target="blank">https://f-olivier.github.io/GraphQL_Zone01/</a>
+Lien d'accées : <a href="https://f-olivier.github.io/Ellye/" target="blank">https://f-olivier.github.io/Ellye/</a>
 
 ### Dépendance
 _______
