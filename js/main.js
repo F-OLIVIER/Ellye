@@ -15,7 +15,7 @@ const list = {
 
     // La maison penchée
     1: {
-        title: "La maison penchée",
+        title: "La Maison Qui Penche",
         question: "Quels sont les premiers symptômes de la maladie ?",
         listResponse: ["Symptômes guelle de bois", "Symptômes grippaux (fatigue, fiévre)", "Aucun symptômes"],
         listResponseValid: ["Symptômes grippaux (fatigue, fiévre)"],
@@ -37,7 +37,7 @@ const list = {
 
     // Opéra
     5: {
-        title: "Opéra",
+        title: "Opéra de Rouen Normandie",
         question: "Comment organiser les soins ?",
         listResponse: ["Hémathologue -> IRM -> Chimiothérapie", "IRM -> Hémathologue -> Médicament", "Chimiothérapie -> IRM -> Hémathologue"],
         listResponseValid: [""],
