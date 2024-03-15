@@ -4,16 +4,16 @@ const list = {
     // Campus Saint Marc (mise en situation)
     0: {
         description: `
-        Vous êtes un jeune médecin arrivant au <a href="https://www.becquerel.fr" target="blank">centre Henri Becquerel</a>.</br>
+        Vous êtes une équipe de jeunes médecins arrivant au <a href="https://www.becquerel.fr" target="blank">centre Henri Becquerel</a>.</br>
         vous avez pour mission d'effectuer des recherches sur les Lymphomes.
-        Vous allez réaliser un parcours au milieu de site historiques pour découvrir cette maladie.
+        Vous allez réaliser un parcours au milieu de site historiques rouennais pour découvrir cette maladie.
         </br></br>
-        Votre route va vous permettre de rencontrer différents personnages qui vont enrichir vos connaissances et vous permettre de répondre aux différentes questions.
+        Votre route va vous permettre de rencontrer différents personnages qui vont enrichir vos connaissances et vous permettre de répondre à différentes questions.
         </br></br>
         Les résultats pressent, les patients comptent sur vous, pour commençer votre aventure rendez-vous à la maison qui penche.`,
     },
 
-    // La maison penchée
+    // La maison qui penche
     1: {
         title: "La Maison Qui Penche",
         question: "Quels sont les premiers symptômes de la maladie ?",
@@ -43,7 +43,7 @@ const list = {
     // Opéra
     5: {
         title: "Opéra de Rouen Normandie",
-        question: "Comment s'organise les soins pour un lymphome ?",
+        question: "Comment s'ochestre les soins pour un lymphome ?",
         listResponse: ["Hémathologue -> IRM -> Chimiothérapie", "IRM -> Hémathologue -> Médicament", "Chimiothérapie -> IRM -> Hémathologue"],
         listResponseValid: ["Hémathologue -> IRM -> Chimiothérapie"],
     },
@@ -59,12 +59,12 @@ const list = {
     7: {
         title: "Place du Vieux Marché",
         question: "Comment faut t'il vivre avec la maladie ?",
-        listResponse: ["Vivre normalement", "Vivre sous traitement", "Vivre à l'Hospitâl"],
-        listResponseValid: ["Vivre sous traitement"],
+        listResponse: ["Vivre sans se poser de questions", "Vivre avec les traitements", "Vivre à l'Hopitâl"],
+        listResponseValid: ["Vivre avec les traitements"],
     },
     8: {
-        explicatif: `Une personne malade aura une prise de sang tous les 21 jours et devra vivre en ayant de la chimiothérapie en fonction des résultats de la prise de sang</br>
-        Le cote phycologique n'ai pas a négliger, ont estime que sa represente 50% de la guérisons de la maladie/</br>
+        explicatif: `Une personne touchée aura une prise de sang tous les 21 jours et devra vivre en ayant de la chimiothérapie en fonction des résultats de la prise de sang</br>
+        Le cote phycologique n'ai pas a négliger, ont estime la représentation à 50% de la guérisons de la maladie/</br>
         Pour plus de detail : <a href="https://www.ellye.fr/stades-et-grades" target="blank">lien vers les différents stade de la maladie</a>`,
     },
 
@@ -72,8 +72,8 @@ const list = {
     9: {
         title: "Musée des Beaux-Arts",
         question: "Comment a été découvert le lymphome ?",
-        listResponse: ["découverte par hazard par le professeur TILLY (Rouennais) dans les années 1970"],
-        listResponseValid: [""],
+        listResponse: ["découverte par hasard par le professeur TILLY (Rouennais) dans les années 1970"],["découverte à la suite de nombreuses recherches par le professeur TILLY (Rouennais) dans les années 1970"],["Par l'institut pasteur en 2004"]
+        listResponseValid: ["découverte à la suite de nombreuses recherches par le professur TILLY (rouennais) dans les années 1970"],
     },
     10: {
         explicatif: `
@@ -102,21 +102,20 @@ const list = {
         listResponseValid: ["18 mois"],
     },
     14: {
-        explicatif: ``,
+        explicatif: `
+        En moyenne le traitement pour un lymphome dure 18 mois mais peut varier selon l'avancement de la maladie`,
     },
 
     // Aître Saint-Maclou
     15: {
         title: "Aître Saint-Maclou",
-        question: "Quels traitement est possible ? ?",
+        question: "Quels traitement est possible pour le lymphome ?",
         listResponse: ["Chimiothérapie", "Radiothérapie", "CarTcel", "Médicaments"],
         listResponseValid: ["Chimiothérapie", "Radiothérapie", "CarTcel"],
     },
     16: {
         explicatif: `
-        Chimiothérapie
-        Radiothérapie
-        CarTcel`,
+       toutes les réponses étaient possibles mais elle n'ont pas toutes le même prix`,
     },
 
     // Campus Saint Marc (fin)
