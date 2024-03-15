@@ -5,14 +5,14 @@ const aide = {
     0: {
         title: "Point de départ",
         adress: `24 Pl. Saint-Marc, 76000 Rouen`,
-        description: ``,
+        description: `Le Campus Saint Marc est un établissement d’études supérieures et de formations professionnelles privées françaises à Rouen, certifié par Bureau Veritas depuis le 28 juin 2017. Ces formations sont proposées sous 4 grandes écoles que sont l’ISCOM, PIGIER Performance, Zone01`,
     },
 
     // La maison penchée
     1: {
         title: "La Maison Qui Penche",
         adress: `102 Rue Malpalu, 76000 Rouen`,
-        description: ``,
+        description: `Située face à l'église Saint-Maclou de Rouen, cette habitation détonne dans le paysage. À tel point qu'elle a été surnommée "la maison qui penche"`,
     },
 
     // Cathédrale Notre Dame de Rouen
