@@ -28,11 +28,16 @@ const list = {
     3: {
         title: "Cathédrale Notre Dame de Rouen",
         question: "Par quel biais pouvons-nous diagnostiquer un lymphome ?",
-        listResponse: ["Prise de sang", "IRM", "Palpasion", "Analyse d'Urine", "Endoscopie", "Examen visuel"],
+        listResponse: ["Examen visuel", "Palpasion", "Prise de sang", "Analyse d'Urine", "IRM", "Endoscopie"],
         listResponseValid: ["Prise de sang", "IRM", "Palpasion"],
     },
     4: {
-        explicatif: `prise de sang, ganglions (via palpasion), IRM (vision)`,
+        explicatif: `Les méthodes permettant de diagnostiquer la maladie sont :</br>
+        • prise de sang</br>
+        • palpasion des ganglions par un médecin</br>
+        • IRM</br>
+        </br>
+        Pour plus de detail : <a href="https://www.ellye.fr/diagnostic" target="blank">lien vers les méthodes de diagnostic de la maladie</a>`,
     },
 
     // Opéra
@@ -40,14 +45,14 @@ const list = {
         title: "Opéra de Rouen Normandie",
         question: "Comment s'organise les soins pour un lymphome ?",
         listResponse: ["Hémathologue -> IRM -> Chimiothérapie", "IRM -> Hémathologue -> Médicament", "Chimiothérapie -> IRM -> Hémathologue"],
-        listResponseValid: [""],
+        listResponseValid: ["Hémathologue -> IRM -> Chimiothérapie"],
     },
     6: {
-        explicatif: `
-        1 - hémathologue (diagnostique)
-        2 - IRM (détection, vision), 
-        3a - chimiothérapie (traitement de fond)
-        3b - si échec radiothérapie`,
+        explicatif: `Voici l'ordre a suivre :</br>
+        1  - Hémathologue (diagnostique)
+        2  - IRM (détection, vision), 
+        3a - Chimiothérapie (traitement de fond)
+        3b - Si échec de la chimiothérapie : radiothérapie`,
     },
 
     // Place du Vieux Marché
@@ -55,12 +60,12 @@ const list = {
         title: "Place du Vieux Marché",
         question: "Comment faut t'il vivre avec la maladie ?",
         listResponse: ["Vivre normalement", "Vivre sous traitement", "Vivre à l'Hospitâl"],
-        listResponseValid: [""],
+        listResponseValid: ["Vivre sous traitement"],
     },
     8: {
-        explicatif: `
-        50% de la maladie se guérie avec la tête
-        lien vers le site`,
+        explicatif: `Une personne malade aura une prise de sang tous les 21 jours et devra vivre en ayant de la chimiothérapie en fonction des résultats de la prise de sang</br>
+        Le cote phycologique n'ai pas a négliger, ont estime que sa represente 50% de la guérisons de la maladie/</br>
+        Pour plus de detail : <a href="https://www.ellye.fr/stades-et-grades" target="blank">lien vers les différents stade de la maladie</a>`,
     },
 
     // Musée des Beaux-Arts
@@ -71,7 +76,9 @@ const list = {
         listResponseValid: [""],
     },
     10: {
-        explicatif: ``,
+        explicatif: `
+        <img src="./assets/img/pr_herve_tilly.jpg" /></br>
+        Photo du professeur Hervé TILLY</br>`,
     },
 
     // Hôtel de ville 
