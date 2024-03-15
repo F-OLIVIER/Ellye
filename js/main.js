@@ -73,7 +73,7 @@ const list = {
         title: "Musée des Beaux-Arts",
         question: "Comment a été découvert le lymphome ?",
         listResponse: ["découverte par hasard par le professeur TILLY (Rouennais) dans les années 1970", "découverte à la suite de nombreuses recherches par le professeur TILLY (Rouennais) dans les années 1970", "Par l'institut pasteur en 2004"],
-        listResponseValid: ["découverte à la suite de nombreuses recherches par le professur TILLY (rouennais) dans les années 1970"],
+        listResponseValid: ["découverte à la suite de nombreuses recherches par le professur TILLY (Rouennais) dans les années 1970"],
     },
     10: {
         explicatif: `
