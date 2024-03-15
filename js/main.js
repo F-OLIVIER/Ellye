@@ -59,7 +59,7 @@ const list = {
     7: {
         title: "Place du Vieux Marché",
         question: "Comment faut t'il vivre avec la maladie ?",
-        listResponse: ["Vivre sans se poser de questions", "Vivre avec les traitements", "Vivre à l'Hopitâl"],
+        listResponse: ["Vivre sans se poser de questions", "Vivre avec les traitements", "Vivre à l'Hôpital"],
         listResponseValid: ["Vivre avec les traitements"],
     },
     8: {
