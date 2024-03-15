@@ -1,3 +1,4 @@
+import { pageAide } from "./aide.js";
 import { pageHome } from "./main.js";
 import { pageAbout } from "./pageAbout.js";
 import { pageEllye } from "./pageEllye.js";
@@ -5,8 +6,9 @@ import { pageEllye } from "./pageEllye.js";
 // 0 = page Home
 // 1 = page Ellye
 // 2 = page About
+// 3 = page aide
 export function navbarActive(params) {
-    let listnavbar = ["home", "ellye", "about"]
+    let listnavbar = ["home", "ellye", "about", "aide"]
     for (let i = 0; i < listnavbar.length; i++) {
         let element = document.getElementById(listnavbar[i]);
         
@@ -26,6 +28,9 @@ export function navbarActive(params) {
         }
         if (i === 2 & i !== params) {
             element.addEventListener('click', pageAbout);
+        }
+        if (i === 3 & i !== params) {
+            element.addEventListener('click', pageAide);
         }
     }
 }

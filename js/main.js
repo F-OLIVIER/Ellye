@@ -32,36 +32,42 @@ const list = {
         listResponseValid: ["Prise de sang", "IRM", "Palpasion"],
     },
     4: {
-        explicatif: `Explicatif ici`,
+        explicatif: `prise de sang, ganglions (via palpasion), IRM (vision)`,
     },
 
     // Opéra
     5: {
-        title: "",
-        question: "",
-        listResponse: [""],
+        title: "Opéra",
+        question: "Comment organiser les soins ?",
+        listResponse: ["Hémathologue -> IRM -> Chimiothérapie", "IRM -> Hémathologue -> Médicament", "Chimiothérapie -> IRM -> Hémathologue"],
         listResponseValid: [""],
     },
     6: {
-        explicatif: ``,
+        explicatif: `
+        1 - hémathologue (diagnostique)
+        2 - IRM (détection, vision), 
+        3a - chimiothérapie (traitement de fond)
+        3b - si échec radiothérapie`,
     },
 
     // Place du Vieux Marché
     7: {
-        title: "",
-        question: "",
-        listResponse: [""],
+        title: "Place du Vieux Marché",
+        question: "Comment vivre avec la maladie ?",
+        listResponse: ["Vivre normalement", "Être handicapé à 50%", "Vivre à l'hospital"],
         listResponseValid: [""],
     },
     8: {
-        explicatif: ``,
+        explicatif: `
+        50% de la maladie se guérie avec la tête
+        lien vers le site`,
     },
 
     // Musée des Beaux-Arts
     9: {
-        title: "",
-        question: "",
-        listResponse: [""],
+        title: "Musée des Beaux-Arts",
+        question: "L'origine de la maladie ?",
+        listResponse: ["découverte par hazard par le professeur TILLY (Rouennais) dans les années 1970"],
         listResponseValid: [""],
     },
     10: {
@@ -70,21 +76,23 @@ const list = {
 
     // Hôtel de ville 
     11: {
-        title: "",
-        question: "",
+        title: "Hôtel de ville ",
+        question: "Statistique des malades",
         listResponse: [""],
         listResponseValid: [""],
     },
     12: {
-        explicatif: ``,
+        explicatif: `
+        40 000 nouveaux cas par ans 
+        lien site Ellye`,
     },
 
     // Passage De La Petite Horloge
     13: {
-        title: "",
-        question: "",
-        listResponse: [""],
-        listResponseValid: [""],
+        title: "Passage De La Petite Horloge",
+        question: "Durée moyenne de traitement ?",
+        listResponse: ["1 semaines", "1 mois", "18 mois", "1 ans", "3 ans", "10 ans", "25 ans", "a vie"],
+        listResponseValid: ["18 mois"],
     },
     14: {
         explicatif: ``,
@@ -92,13 +100,16 @@ const list = {
 
     // Aître Saint-Maclou
     15: {
-        title: "",
-        question: "",
-        listResponse: [""],
-        listResponseValid: [""],
+        title: "Aître Saint-Maclou",
+        question: "Traitement ?",
+        listResponse: ["Chimiothérapie", "Radiothérapie", "CarTcel"],
+        listResponseValid: ["Chimiothérapie", "Radiothérapie", "CarTcel"],
     },
     16: {
-        explicatif: ``,
+        explicatif: `
+        Chimiothérapie
+        Radiothérapie
+        CarTcel`,
     },
 
     // Campus Saint Marc (fin)
@@ -108,6 +119,7 @@ const list = {
 }
 
 let etape = 0;
+let nbValidResponse = 0;
 export function pageHome() {
     navbarActive(0);
     let container = document.getElementById('container');
@@ -157,6 +169,18 @@ export function pageHome() {
         }
         subcontainerHome.appendChild(fieldset);
     } else if (etape === 17) {
+        // afficher le nombre de réponse correct
+        let divnbValidResponse = document.createElement('div');
+        divnbValidResponse.innerHTML = `
+        Félicitation, vous êtes arrivé au bout de votre quête</br></br>
+        Vous avez optenue : ${nbValidResponse} bonnes réponse / 8 questions`;
+        divnbValidResponse.className = 'divnbValidResponse';
+        subcontainerHome.appendChild(divnbValidResponse);
+
+        // description final
+        let explication = document.createElement('div');
+        explication.innerHTML = list[etape].explicatif;
+        subcontainerHome.appendChild(explication);
 
     }
     const buttonNext = createbuttonNext();
@@ -175,6 +199,7 @@ function explication(valueSelect) {
         if (valueSelect === "valid") {
             divFelicitation.textContent = 'Bonne réponse';
             divFelicitation.style.backgroundColor = 'green';
+            nbValidResponse++
         } else {
             divFelicitation.textContent = 'Mauvaise réponse';
             divFelicitation.style.backgroundColor = 'red';
