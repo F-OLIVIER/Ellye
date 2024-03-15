@@ -71,7 +71,7 @@ const aide = {
     // Campus Saint Marc (fin)
     9: {
         title: "Arrivée",
-        adress: ``,
+        adress: `24 Pl. Saint-Marc, 76000 Rouen`,
         description: ``,
     },
 }
@@ -86,12 +86,9 @@ export function pageAide() {
 
     let subcontainerAide = document.createElement('div');
     subcontainerAide.className = 'subcontainerAide';
-    console.log('ENTER', aide.length)
-
 
     for (let i = 0; i < 10; i++) {
         const element = aide[i];
-        console.log('element', element)
         let detail = document.createElement('details');
         let summary = document.createElement('summary');
         summary.textContent = element.title;
