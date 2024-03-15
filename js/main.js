@@ -84,7 +84,7 @@ const list = {
     // Hôtel de ville 
     11: {
         title: "Hôtel de ville ",
-        question: "Combien y a t'il de nouvelle personnes atteintes par ans des lymphomes ?",
+        question: "Combien y a t'il de nouvelles personnes atteintes par ans ?",
         listResponse: ["100", "1000", "10 000", "25 000", "40 000", "100 000"],
         listResponseValid: ["40 000"],
     },
@@ -97,7 +97,7 @@ const list = {
     // Passage De La Petite Horloge
     13: {
         title: "Passage De La Petite Horloge",
-        question: "Quel est la durée moyenne de traitement d'un lymphome ?",
+        question: "Quel est la durée moyenne de traitement pour un lymphome ?",
         listResponse: ["1 semaines", "1 mois", "18 mois", "1 ans", "3 ans", "10 ans", "25 ans", "a vie"],
         listResponseValid: ["18 mois"],
     },
