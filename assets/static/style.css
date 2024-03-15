@@ -66,6 +66,7 @@ body {
 /* ----------------------- Home --------------------- */
 /* -------------------------------------------------- */
 .subcontainerHome {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,6 +107,7 @@ input[type="radio"] {
 /* ---------------------- Ellye --------------------- */
 /* -------------------------------------------------- */
 .subcontainerEllye {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,6 +158,7 @@ details {
 /* -------------------------------------------------- */
 
 .subcontainerAbout {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

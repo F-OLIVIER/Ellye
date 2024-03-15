@@ -17,7 +17,7 @@ const list = {
     1: {
         title: "La Maison Qui Penche",
         question: "Quels sont les premiers symptômes de la maladie ?",
-        listResponse: ["Symptômes guelle de bois", "Symptômes grippaux (fatigue, fiévre)", "Aucun symptômes"],
+        listResponse: ["Symptômes gueule de bois", "Symptômes grippaux (fatigue, fiévre)", "Aucun symptômes"],
         listResponseValid: ["Symptômes grippaux (fatigue, fiévre)"],
     },
     2: {
@@ -38,7 +38,7 @@ const list = {
     // Opéra
     5: {
         title: "Opéra de Rouen Normandie",
-        question: "Comment organiser les soins ?",
+        question: "Comment s'organise les soins pour un lymphome ?",
         listResponse: ["Hémathologue -> IRM -> Chimiothérapie", "IRM -> Hémathologue -> Médicament", "Chimiothérapie -> IRM -> Hémathologue"],
         listResponseValid: [""],
     },
@@ -53,8 +53,8 @@ const list = {
     // Place du Vieux Marché
     7: {
         title: "Place du Vieux Marché",
-        question: "Comment vivre avec la maladie ?",
-        listResponse: ["Vivre normalement", "Être handicapé à 50%", "Vivre à l'hospital"],
+        question: "Comment faut t'il vivre avec la maladie ?",
+        listResponse: ["Vivre normalement", "Vivre sous traitement", "Vivre à l'Hospitâl"],
         listResponseValid: [""],
     },
     8: {
@@ -66,7 +66,7 @@ const list = {
     // Musée des Beaux-Arts
     9: {
         title: "Musée des Beaux-Arts",
-        question: "L'origine de la maladie ?",
+        question: "Comment a été découvert le lymphome ?",
         listResponse: ["découverte par hazard par le professeur TILLY (Rouennais) dans les années 1970"],
         listResponseValid: [""],
     },
@@ -77,9 +77,9 @@ const list = {
     // Hôtel de ville 
     11: {
         title: "Hôtel de ville ",
-        question: "Statistique des malades",
-        listResponse: [""],
-        listResponseValid: [""],
+        question: "Combien y a t'il de nouvelle personnes atteintes par ans des lymphomes ?",
+        listResponse: ["100", "1000", "10 000", "25 000", "40 000", "100 000"],
+        listResponseValid: ["40 000"],
     },
     12: {
         explicatif: `
@@ -90,7 +90,7 @@ const list = {
     // Passage De La Petite Horloge
     13: {
         title: "Passage De La Petite Horloge",
-        question: "Durée moyenne de traitement ?",
+        question: "Quel est la durée moyenne de traitement d'un lymphome ?",
         listResponse: ["1 semaines", "1 mois", "18 mois", "1 ans", "3 ans", "10 ans", "25 ans", "a vie"],
         listResponseValid: ["18 mois"],
     },
@@ -101,8 +101,8 @@ const list = {
     // Aître Saint-Maclou
     15: {
         title: "Aître Saint-Maclou",
-        question: "Traitement ?",
-        listResponse: ["Chimiothérapie", "Radiothérapie", "CarTcel"],
+        question: "Quels traitement est possible ? ?",
+        listResponse: ["Chimiothérapie", "Radiothérapie", "CarTcel", "Médicaments"],
         listResponseValid: ["Chimiothérapie", "Radiothérapie", "CarTcel"],
     },
     16: {

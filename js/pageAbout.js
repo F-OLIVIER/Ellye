@@ -12,7 +12,7 @@ export function pageAbout() {
     subcontainerAbout.className = 'subcontainerAbout';
 
     let descriptif = document.createElement('div');
-    descriptif.textContent = `Application imaginé et réalisé lors d'un challenge inter-école du campus Saint-Marc avec les écoles PIGIERS, ISCOM et Zone 01`;
+    descriptif.textContent = `Application imaginée et réalisé lors d'un challenge inter-école du campus Saint-Marc avec les écoles PIGIERS, ISCOM et Zone 01`;
     subcontainerAbout.appendChild(descriptif)
 
     let concept = document.createElement('h3');
