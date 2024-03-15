@@ -64,16 +64,16 @@ const list = {
     },
     8: {
         explicatif: `Une personne touchée aura une prise de sang tous les 21 jours et devra vivre en ayant de la chimiothérapie en fonction des résultats de la prise de sang</br>
-        Le cote phycologique n'ai pas a négliger, ont estime la représentation à 50% de la guérisons de la maladie/</br>
-        Pour plus de detail : <a href="https://www.ellye.fr/stades-et-grades" target="blank">lien vers les différents stade de la maladie</a>`,
+        Le côté phycologique n'est pas à négliger, on estime la représentation à 50% de la guérison de la maladie</br>
+        Pour plus de détails : <a href="https://www.ellye.fr/stades-et-grades" target="blank">lien vers les différents stade de la maladie</a>`,
     },
 
     // Musée des Beaux-Arts
     9: {
         title: "Musée des Beaux-Arts",
         question: "Comment a été découvert le lymphome ?",
-        listResponse: ["découverte par hasard par le professeur TILLY (Rouennais) dans les années 1970", "découverte à la suite de nombreuses recherches par le professeur TILLY (Rouennais) dans les années 1970", "Par l'institut pasteur en 2004"],
-        listResponseValid: ["découverte à la suite de nombreuses recherches par le professeur TILLY (Rouennais) dans les années 1970"],
+        listResponse: ["Découvert par hasard par le professeur TILLY (Rouennais) dans les années 1970", "Découvert à la suite de nombreuses recherches par le professeur TILLY (Rouennais) dans les années 1970", "Par l'Institut Pasteur en 2004"],
+        listResponseValid: ["Découvert à la suite de nombreuses recherches par le professeur TILLY (Rouennais) dans les années 1970"],
     },
     10: {
         explicatif: `
@@ -84,21 +84,21 @@ const list = {
     // Hôtel de ville 
     11: {
         title: "Hôtel de ville ",
-        question: "Combien y a t'il de nouvelles personnes atteintes par ans ?",
+        question: "Combien il y a t'il de nouvelles personnes atteintes par an ?",
         listResponse: ["100", "1000", "10 000", "25 000", "40 000", "100 000"],
         listResponseValid: ["40 000"],
     },
     12: {
         explicatif: `
-        40 000 nouveaux cas par ans 
-        lien site Ellye`,
+        40 000 nouveaux cas par an
+        (lien site Ellye)`,
     },
 
     // Passage De La Petite Horloge
     13: {
         title: "Passage De La Petite Horloge",
-        question: "Quel est la durée moyenne de traitement pour un lymphome ?",
-        listResponse: ["1 semaines", "1 mois", "18 mois", "1 ans", "3 ans", "10 ans", "25 ans", "a vie"],
+        question: "Quelle est la durée moyenne de traitement pour un lymphome ?",
+        listResponse: ["1 semaine", "1 mois", "18 mois", "1 an", "3 ans", "10 ans", "25 ans", "à vie"],
         listResponseValid: ["18 mois"],
     },
     14: {
@@ -109,13 +109,13 @@ const list = {
     // Aître Saint-Maclou
     15: {
         title: "Aître Saint-Maclou",
-        question: "Quels traitement est possible pour le lymphome ?",
+        question: "Quel traitement est possible pour le lymphome ?",
         listResponse: ["Chimiothérapie", "Radiothérapie", "CarTcel", "Médicaments"],
         listResponseValid: ["Chimiothérapie", "Radiothérapie", "CarTcel"],
     },
     16: {
         explicatif: `
-       toutes les réponses étaient possibles mais elle n'ont pas toutes le même prix`,
+       Toutes les réponses étaient possibles mais elle n'ont pas toutes le même prix`,
     },
 
     // Campus Saint Marc (fin)
