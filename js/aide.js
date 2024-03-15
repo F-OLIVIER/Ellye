@@ -78,7 +78,7 @@ const aide = {
 
 
 export function pageAide() {
-    navbarActive(1);
+    navbarActive(3);
     let container = document.getElementById('container');
     while (container.firstChild) {
         container.removeChild(container.firstChild);
