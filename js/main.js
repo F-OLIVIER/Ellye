@@ -189,6 +189,7 @@ export function pageHome() {
         subcontainerHome.appendChild(explicatifFinal);
     }
 
+    console.log('etape : ', etape);
     if (etape !== 17) {
         const buttonNext = createbuttonNext();
         subcontainerHome.appendChild(buttonNext);
