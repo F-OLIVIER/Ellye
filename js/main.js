@@ -174,7 +174,10 @@ export function pageHome() {
             fieldset.appendChild(div);
         }
         subcontainerHome.appendChild(fieldset);
-    } else if (etape === 16) {
+        
+        const buttonNext = createbuttonNext();
+        subcontainerHome.appendChild(buttonNext);
+    } else if (etape === 17) {
         // afficher le nombre de réponse correct
         let divnbValidResponse = document.createElement('div');
         divnbValidResponse.innerHTML = `
@@ -188,13 +191,9 @@ export function pageHome() {
         explicatifFinal.innerHTML = list[etape].explicatif;
         subcontainerHome.appendChild(explicatifFinal);
     }
-console.log('etape', etape);
-    if (etape !== 16) {
-        const buttonNext = createbuttonNext();
-        subcontainerHome.appendChild(buttonNext);
-        container.appendChild(subcontainerHome);
-        activationButtonNext();
-    }
+    
+    container.appendChild(subcontainerHome);
+    activationButtonNext();
 }
 
 function explication(valueSelect) {
