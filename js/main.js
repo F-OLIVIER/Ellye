@@ -185,7 +185,7 @@ export function pageHome() {
 
         // description final
         let explicatifFinal = document.createElement('div');
-        explicatifFinal.innerHTML = list[etape].explicatif;
+        explicatifFinal.innerHTML = list[etape].description;
         subcontainerHome.appendChild(explicatifFinal);
     }
 
