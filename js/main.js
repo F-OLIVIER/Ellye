@@ -174,9 +174,6 @@ export function pageHome() {
             fieldset.appendChild(div);
         }
         subcontainerHome.appendChild(fieldset);
-        
-        const buttonNext = createbuttonNext();
-        subcontainerHome.appendChild(buttonNext);
     } else if (etape === 17) {
         // afficher le nombre de réponse correct
         let divnbValidResponse = document.createElement('div');
@@ -191,7 +188,11 @@ export function pageHome() {
         explicatifFinal.innerHTML = list[etape].explicatif;
         subcontainerHome.appendChild(explicatifFinal);
     }
-    
+
+    if (etape !== 17) {
+        const buttonNext = createbuttonNext();
+        subcontainerHome.appendChild(buttonNext);
+    }
     container.appendChild(subcontainerHome);
     activationButtonNext();
 }
