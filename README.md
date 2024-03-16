@@ -7,10 +7,6 @@ L'association <a href="https://www.ellye.fr" target="blank">Ellye (ensemble leuc
 
 L'application réalisée doit permettre de réaliser un jeu de piste à Rouen pour faire découvrir la ville et ses monuments via une balade d'environ 4 km. Balade permettant de bouger (bon pour la santé) et via un questionnaire à répondre par le biais de cette application de découvrir la maladie et l'association Ellye qui aide les patients.
 
-### Image
-_______
-<img src="./screen.png">
-
 ### Usage
 _______
 Page hébergé via <a href="https://pages.github.com" target="blank">GitHub Pages</a><br>
