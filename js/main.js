@@ -188,7 +188,7 @@ export function pageHome() {
         explicatifFinal.innerHTML = list[etape].explicatif;
         subcontainerHome.appendChild(explicatifFinal);
     }
-
+console.log('etape', etape);
     if (etape !== 16) {
         const buttonNext = createbuttonNext();
         subcontainerHome.appendChild(buttonNext);
