@@ -49,9 +49,9 @@ const list = {
     },
     6: {
         explicatif: `Voici l'ordre a suivre :</br>
-        1  - Hémathologue (diagnostique)
-        2  - IRM (détection, vision), 
-        3a - Chimiothérapie (traitement de fond)
+        1  - Hémathologue (diagnostique)</br>
+        2  - IRM (détection, vision)</br> 
+        3a - Chimiothérapie (traitement de fond)</br>
         3b - Si échec de la chimiothérapie : radiothérapie`,
     },
 
@@ -120,7 +120,7 @@ const list = {
 
     // Campus Saint Marc (fin)
     17: {
-        description: ``,
+        description: `Descriptif à faire`,
     },
 }
 
