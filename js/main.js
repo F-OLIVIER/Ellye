@@ -184,15 +184,17 @@ export function pageHome() {
         subcontainerHome.appendChild(divnbValidResponse);
 
         // description final
-        let explication = document.createElement('div');
-        explication.innerHTML = list[etape].explicatif;
-        subcontainerHome.appendChild(explication);
-
+        let explicatifFinal = document.createElement('div');
+        explicatifFinal.innerHTML = list[etape].explicatif;
+        subcontainerHome.appendChild(explicatifFinal);
     }
-    const buttonNext = createbuttonNext();
-    subcontainerHome.appendChild(buttonNext);
-    container.appendChild(subcontainerHome);
-    activationButtonNext();
+
+    if (etape !== 17) {
+        const buttonNext = createbuttonNext();
+        subcontainerHome.appendChild(buttonNext);
+        container.appendChild(subcontainerHome);
+        activationButtonNext();
+    }
 }
 
 function explication(valueSelect) {
