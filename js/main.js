@@ -111,7 +111,7 @@ const list = {
         title: "Aître Saint-Maclou",
         question: "Quel traitement est possible pour le lymphome ?",
         listResponse: ["Chimiothérapie", "Radiothérapie", "CarTcel", "Médicaments"],
-        listResponseValid: ["Chimiothérapie", "Radiothérapie", "CarTcel"],
+        listResponseValid: ["Chimiothérapie", "Radiothérapie", "CarTcel", "Médicaments"],
     },
     16: {
         explicatif: `
@@ -174,7 +174,7 @@ export function pageHome() {
             fieldset.appendChild(div);
         }
         subcontainerHome.appendChild(fieldset);
-    } else if (etape === 17) {
+    } else if (etape === 16) {
         // afficher le nombre de réponse correct
         let divnbValidResponse = document.createElement('div');
         divnbValidResponse.innerHTML = `
@@ -189,7 +189,7 @@ export function pageHome() {
         subcontainerHome.appendChild(explicatifFinal);
     }
 
-    if (etape !== 17) {
+    if (etape !== 16) {
         const buttonNext = createbuttonNext();
         subcontainerHome.appendChild(buttonNext);
         container.appendChild(subcontainerHome);
